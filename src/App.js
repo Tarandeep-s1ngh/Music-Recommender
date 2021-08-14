@@ -4,18 +4,22 @@ import { useState } from "react";
 
 const musicDB = {
   Punjabi: [
-    { name: "Clash", singer: "by: Diljit Dosanjh" },
-    { name: "Waalian", singer: "by: Harnoor" }
+    { name: "Clash", singer: "by: Diljit Dosanjh | 4.2/5" },
+    { name: "Waalian", singer: "by: Harnoor | 4/5" },
+    { name: "Sanawar", singer: "by: Dilpreet Dhillon | 3.7/5" },
+    { name: "Facts", singer: "by: Karan Aujla | 4.6/5" }
   ],
 
   English: [
-    { name: "Older", singer: "by: Sasha Alex" },
-    { name: "Its You", singer: "by: Ali Gatie" }
+    { name: "Older", singer: "by: Sasha Alex | 4.8/5" },
+    { name: "Perfect", singer: "by: Ed Sheeran | 4.3/5" },
+    { name: "Its You", singer: "by: Ali Gatie | 4/5" }
   ],
 
   Hindi: [
-    { name: "Baarishein", singer: "by: Anuv Jain" },
-    { name: "Teri Khaamiyan", singer: "by: Akhil" }
+    { name: "Baarishein", singer: "by: Anuv Jain | 4.5/5" },
+    { name: "Teri Mitti", singer: "by: B Praak | 5/5" },
+    { name: "Teri Khaamiyan", singer: "by: Akhil | 4.2/5" }
   ]
 };
 
