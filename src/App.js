@@ -4,22 +4,22 @@ import { useState } from "react";
 
 const musicDB = {
   Punjabi: [
-    { name: "Clash", singer: "by: Diljit Dosanjh | 4.2/5" },
-    { name: "Waalian", singer: "by: Harnoor | 4/5" },
-    { name: "Sanawar", singer: "by: Dilpreet Dhillon | 3.7/5" },
-    { name: "Facts", singer: "by: Karan Aujla | 4.6/5" }
+    { name: "Clash", singer: "Description: Diljit Dosanjh | 4.2/5" },
+    { name: "Waalian", singer: "Description: Harnoor | 4/5" },
+    { name: "Sanawar", singer: "Description: Dilpreet Dhillon | 3.7/5" },
+    { name: "Facts", singer: "Description: Karan Aujla | 4.6/5" }
   ],
 
   English: [
-    { name: "Older", singer: "by: Sasha Alex | 4.8/5" },
-    { name: "Perfect", singer: "by: Ed Sheeran | 4.3/5" },
-    { name: "Its You", singer: "by: Ali Gatie | 4/5" }
+    { name: "Older", singer: "Description: Sasha Alex | 4.8/5" },
+    { name: "Perfect", singer: "Description: Ed Sheeran | 4.3/5" },
+    { name: "Its You", singer: "Description: Ali Gatie | 4/5" }
   ],
 
   Hindi: [
-    { name: "Baarishein", singer: "by: Anuv Jain | 4.5/5" },
-    { name: "Teri Mitti", singer: "by: B Praak | 5/5" },
-    { name: "Teri Khaamiyan", singer: "by: Akhil | 4.2/5" }
+    { name: "Baarishein", singer: "Description: Anuv Jain | 4.5/5" },
+    { name: "Teri Mitti", singer: "Description: B Praak | 5/5" },
+    { name: "Teri Khaamiyan", singer: "Description: Akhil | 4.2/5" }
   ]
 };
 
